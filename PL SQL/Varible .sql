@@ -1,7 +1,0 @@
-SET SERVEROUTPUT ON;
-DECLARE
-  v_test  VARCHAR2(10);
-BEGIN
-  v_test := 'MAHESH';
-  DBMS_OUTPUT.PUT_LINE (v_test);
-END;
